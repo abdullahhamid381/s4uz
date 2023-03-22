@@ -4,7 +4,9 @@ import './Scss/Home.scss'
 
 const App = () => {
   return (
-    <Home/>
+ <div>
+  <Home/>
+ </div>
   )
 }
 
