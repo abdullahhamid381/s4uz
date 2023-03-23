@@ -1,0 +1,42 @@
+@import './media.scss';
+.navbar-first-parent {
+    border-top: 1px solid rgba(128, 128, 128, 0.202);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.202);
+    padding: 15px 0;
+    margin: 10px 0;
+
+    .nav-bar-parent {
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+        margin: auto;
+@include lg{
+    flex-wrap: wrap;
+}
+        button {
+            border: none;
+            background: none;
+
+            a {
+                transition: 1s;
+                color: black;
+                font-size: 14px;
+                font-weight: 400;
+            }
+        }
+
+        button:hover a {
+            color: rgb(66, 221, 66);
+        }
+
+        .nav-bar {
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+            margin-left: -20px;
+            @include lg{
+                flex-wrap: wrap;
+            }
+        }
+    }
+}
