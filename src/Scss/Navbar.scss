@@ -33,10 +33,11 @@
             display: flex;
             justify-content: space-between;
             gap: 30px;
-            margin-left: -20px;
+
             @include lg{
                 flex-wrap: wrap;
-            }
+            }    
         }
     }
+ 
 }
