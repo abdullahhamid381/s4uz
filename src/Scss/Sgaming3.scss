@@ -1,0 +1,59 @@
+
+@import './media.scss';
+.sgaming-parent{
+    width: 80% !important;
+    margin: auto;
+    padding: 160px 0 100px 0 !important;
+    .cards-section{
+        .cards-sub-parent{
+            .title-div{
+                display: flex;
+                
+                gap: 20px;
+                p{
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+               
+            }
+            .cards-detail{
+                display: flex;
+                border-top: 3px solid black;
+                border-bottom: 1px solid black;
+                padding: 40px 0;
+                @include lg{
+                    flex-direction: column;
+                }
+                .points{
+                    h3{
+                        line-height: 10px;
+                        font-weight: 400;
+                         color: rgb(110, 110, 103);
+                        @include lg{
+                            line-height: 20px !important;
+                        }
+                    }
+                   
+                }
+                img{
+                    border: 5px solid white;
+                    box-shadow: 0px 0px 4px 0px black;
+                    width: 80%;
+                }
+                p{
+                    color: rgb(110, 110, 103) 
+                }
+            }
+        }
+        .copy-right{
+            p{
+                color: rgb(110, 110, 103) ;
+                font-weight: 500;
+line-height: 10px;
+                @include lg{
+                    line-height: 20px !important;
+                }
+            }
+        }
+    }
+}

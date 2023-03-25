@@ -42,8 +42,7 @@ const CasinoStudio = () => {
             </div>
       
            <div className='cards-link'>
-                <img src={'./images/29.png'} alt="" style={{width:'100%'}} />
-                <img src={'./images/30.png'} alt=""  style={{width:'100%'}}/>
+               
                 <img src={'./images/31.png'} alt=""  style={{width:'100%'}}/>
               </div>
 
