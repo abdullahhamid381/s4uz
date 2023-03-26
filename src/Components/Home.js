@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../Scss/Home.scss'
 import { CardsFirst, CardsSecond, CardsThird } from './Data'
 import Footer from './Reuseable/Footer'
@@ -46,7 +47,7 @@ const Home = () => {
                 </div>
                 <p className='system'>{map.system}</p>
                 <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
-                  <button ><a href="">{map.button}</a></button>
+                  <button ><Link to={map.path}>{map.button}</Link></button>
                 </div>
               </div>
             )

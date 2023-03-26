@@ -1,0 +1,115 @@
+@import './media.scss';
+
+.s4ugaming3-parent {
+    width: 80% !important;
+    margin: auto;
+    padding: 160px 0 100px 0 !important;
+
+    .section-first-parent {
+        padding: 40px 0;
+
+        .title-first {
+            h1 {
+                font-size: 31px;
+                font-weight: 400;
+            }
+        }
+
+        .gif {
+            display: flex;
+            gap: 30px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.466);
+            border-top: 3px solid #424242;
+            padding: 40px 0;
+            align-items: center;
+
+            @include lg {
+                flex-direction: column;
+            }
+
+            div {
+                width: 70%;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            p {
+                font-size: 15px;
+                margin: 0;
+                color: rgb(148, 149, 141);
+                font-weight: 400;
+            }
+
+        }
+        .title-sceond{
+            display: flex;
+            gap: 40px;
+            align-items: center;
+            h1{
+                font-size: 31px;
+                font-weight: 400;   
+            }
+            p{
+                b{
+                    font-weight: 500;
+                }
+            }
+           
+        }
+        .detail{
+            border-bottom: 1px solid rgba(0, 0, 0, 0.466);
+            border-top: 3px solid #424242;
+            padding: 40px 0;
+            p{
+                font-size: 15px;
+                font-weight: 400;
+                color: rgb(148, 149, 141) ;
+            }
+        }
+
+        .list-order-parent{
+            h1{
+                font-size: 31px;
+                font-weight: 400;
+                color:  rgb(6, 6, 5);
+            }
+           .list-order{
+            padding: 20px 0;
+           }
+        }
+        .bullet-point-section-first{
+            h1{
+                color: rgb(6, 6, 5);
+                font-size: 18px;
+                font-weight: 400;
+            }
+        }
+        .bullet-point-first{
+            padding: 30px 0;
+            li{
+                margin: 5px 0;
+                font-size: 14px;
+            }
+        }
+        .cards-parent{
+            border-bottom: 3px solid #424242;
+            div{
+                border-top: 1px solid rgba(0, 0, 0, 0.466);
+                padding: 20px 0 30px 0;
+                h1{
+                    font-size: 22px;
+                    font-weight: 400;
+                    color: rgb(6, 6, 5);
+                }
+                span{
+                    color: rgb(148, 149, 141);
+                    font-size: 15px;
+                    font-weight: 400;
+                }
+            }
+            
+        }
+    }
+}

@@ -1,4 +1,5 @@
 @import './media.scss';
+
 .navbar-first-parent {
     border-top: 1px solid rgba(128, 128, 128, 0.202);
     border-bottom: 1px solid rgba(128, 128, 128, 0.202);
@@ -10,9 +11,11 @@
         justify-content: space-between;
         width: 95%;
         margin: auto;
-@include lg{
-    flex-wrap: wrap;
-}
+
+        @include lg {
+            flex-wrap: wrap;
+        }
+
         button {
             border: none;
             background: none;
@@ -34,10 +37,16 @@
             justify-content: space-between;
             gap: 30px;
 
-            @include lg{
+            @include lg {
                 flex-wrap: wrap;
-            }    
+                gap: 5px;
+            }
         }
     }
- 
+    .download{
+        @include lg{
+            margin-top: 10px;
+        }
+    }
+
 }
