@@ -1,6 +1,11 @@
 import React from 'react'
 import Navbar from './Reuseable/Navbar'
 import '../Scss/Singlepost.scss'
+import { ImFacebook } from 'react-icons/im'
+import { BsTwitter } from 'react-icons/bs'
+import { FaLinkedinIn } from 'react-icons/fa'
+import { BiUserCircle } from 'react-icons/bi'
+import { AiFillFacebook } from 'react-icons/ai'
 import { koreanpoints } from './Data'
 const Singlepost = () => (
     <div className='single-post-parent'>
@@ -172,12 +177,51 @@ const Singlepost = () => (
                     </p>
                 </div>
                 <div>
-                        <span style={{ fontSize: '38px', color: 'rgb(102, 102, 102)', fontWeight: '400' }}>--------------------------</span>
-                    </div>
+                    <span style={{ fontSize: '38px', color: 'rgb(102, 102, 102)', fontWeight: '400' }}>--------------------------</span>
+                </div>
             </div>
 
 
 
+        </div>
+
+
+        {/* SECTION FOOTER */}
+
+        <div className='footer-parent'>
+            <div className='link-parent'>
+                <div className='link'>
+                    <span>댓글 0개</span>
+                    <span><ImFacebook /></span>
+                    <span><BsTwitter /></span>
+                    <span><FaLinkedinIn /></span>
+                </div>
+                <div style={{ display: 'flex' }}>
+                    <span>카지노사이트제작
+                        •
+                        라이브 카지노 제작
+                        •
+                        카지노 슬롯머신 분양
+                        정렬 기준</span>
+                    <select>
+                        <option value="">날짜 오름차순</option>
+                    </select>
+                </div>
+            </div>
+
+            <div className='user'>
+                <span style={{ color: '#E6E6E6', fontSize: '60px' }}><BiUserCircle /></span>
+                <input type="textarea" placeholder='댓글 달기...' />
+            </div>
+            <div className='submit'>
+                <button style={{ float: 'right', background: '#A0AAB8', padding: '5px 10px', border: 'none' }}>게시
+                </button>
+            </div>
+
+            <div className='facebook-link'>
+                <span style={{ color: '#37549C' }}><AiFillFacebook /></span>
+                <a href="https://developers.facebook.com/products/social-plugins/comments/?utm_campaign=social_plugins&utm_medium=offsite_pages&utm_source=comments_plugin">Facebook 댓글 플러그인</a>
+            </div>
         </div>
     </div>
 )
