@@ -23,7 +23,7 @@ export const Navbadata = [
     },
     {
         button: '사이트 솔루션',
-        path: '/sgaming3',
+        path: ''/'',
     },
     {
         button: '스튜디오 솔루션',

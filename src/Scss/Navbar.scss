@@ -6,45 +6,49 @@
     padding: 15px 0;
     margin: 10px 0;
 
-    .nav-bar-parent {
-        display: flex;
-        justify-content: space-between;
-        width: 95%;
-        margin: auto;
 
-        @include lg {
-            flex-wrap: wrap;
-        }
-
-        button {
-            border: none;
-            background: none;
-
-            a {
-                transition: 1s;
-                color: black;
-                font-size: 14px;
-                font-weight: 400;
-            }
-        }
-
-        button:hover a {
-            color: rgb(66, 221, 66);
-        }
-
-        .nav-bar {
+   .nav-bar-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    .nav-bar{
+        .first{
             display: flex;
-            justify-content: space-between;
-            gap: 30px;
+            gap: 20px;
+            flex-wrap: wrap;
+            align-items: center;
+            Link{
+                text-decoration: none !important;
+            }
+            li{
+                list-style: none;
+                margin: 0 10px;
+               
+            }
+            .active{
+                transition: 1s;
+            }
+            .active:hover .drop-down{
+                display: block;
+                transition: 1s;
+            }
 
-            @include lg {
-                flex-wrap: wrap;
-                gap: 5px;
+            .drop-down{
+                transition: 1s;
+                display: none;
+                padding: 0;
+                padding-top: 10px;
             }
         }
     }
+   }
     .download{
+        
+    border: none;
+    background: none;
         @include lg{
+            margin-left: 48px;
             margin-top: 10px;
         }
     }

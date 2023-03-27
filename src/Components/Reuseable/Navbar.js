@@ -8,19 +8,21 @@ const Navbar = () => {
             <div className='navbar-first-parent'>
                 <div className='nav-bar-parent'>
                     <div className='nav-bar'>
-                        {
-                            Navbadata.map((map) => {
-                                return (
-                                    <div>
-                                        <button>
-                                            <Link to={map.path} style={{ textDecoration: 'none' }}>{map.button}
-                                            </Link>
-                                        </button>
-
-                                    </div>
-                                )
-                            })
-                        }
+                        <ul className='first' >
+                            <Link to='/' style={{ textDecoration: 'none',fontSize:'14px',color:'black' }}><li>홈</li></Link>
+                            <Link to='/sgaming9' style={{ textDecoration: 'none',fontSize:'14px',color:'black' }}>
+                                <li className='active'>회사소개
+                                    <ul className='drop-down'>
+                                        <Link to='/카지노사이트제작' style={{ textDecoration: 'none',fontSize:'14px',color:'black' }}><li>CEO인사말</li></Link>
+                                    </ul>
+                                </li>
+                            </Link>
+                            <Link to='/evolution'  style={{ textDecoration: 'none',fontSize:'14px',color:'black' }}> <li>에볼루션 카지노 솔루션</li></Link>
+                            <Link to='/sgaming2'  style={{ textDecoration: 'none',fontSize:'14px',color:'black' }}><li>라이브 카지노</li></Link>
+                            <Link to='/s4ugaming3'  style={{ textDecoration: 'none',fontSize:'14px',color:'black' }}><li>게임리스트 (슬롯+라이브)</li></Link>
+                            <Link to='/sgaming3'  style={{ textDecoration: 'none',fontSize:'14px',color:'black' }}><li>사이트 솔루션</li></Link>
+                            <Link to='/casinostudio'  style={{ textDecoration: 'none',fontSize:'14px',color:'black' }}> <li>스튜디오 솔루션</li></Link>
+                        </ul>
                     </div>
                     <div>
                         <button className='download'>

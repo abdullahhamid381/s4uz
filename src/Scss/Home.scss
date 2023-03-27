@@ -1,15 +1,18 @@
 @import './media.scss';
 body {
     padding: 0 !important;
-    margin: 0 !important;
+    
+width: 80% !important;
+margin: auto !important;
 }
 
 .home-parent {
-    width: 80% !important;
+  
     margin: auto;
     padding: 160px 0 100px 0 !important;
     @include lg{
         padding: 80px 0 100px 0;
+       
     }
     .home-header-images {
         img {
