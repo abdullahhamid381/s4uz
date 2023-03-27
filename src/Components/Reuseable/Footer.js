@@ -9,8 +9,8 @@ const Footer = () => (
       <div className='foter-parent'>
       <div className='footer-img-parent'>
             <Link to='/single_post'><img src={'./images/17.webp'} alt="" /></Link>
-            <img src={'./images/18.webp'} alt="" />
-            <img src={'./images/19.webp'} alt="" />
+           <Link to = '/single_post_2'> <img src={'./images/18.webp'} alt="" /></Link>
+           <Link to = '/single_post_3'><img src={'./images/19.webp'} alt="" /></Link> 
         </div>
 
 
