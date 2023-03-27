@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 import CasinoStudio from './Components/CasinoStudio'
 import Evolution from './Components/Evolution'
 import Home from './Components/Home'
+import Producción from './Components/Producción'
 import S4ugaming3 from './Components/S4ugaming3'
 import Sgaming2 from './Components/Sgaming2'
 import Sgaming3 from './Components/Sgaming3'
@@ -24,8 +25,9 @@ const App = () => {
         <Route path='/evolution' element={<Evolution />} />
         <Route path='/s4ugaming3' element={<S4ugaming3 />} />
 <Route path='/single_post' element={<Singlepost/>}/>
-<Route path='single_post_2' element={<Singlepost2/>}/>
-<Route path='single_post_3' element={<Singlepost3/>}/>
+<Route path='/single_post_2' element={<Singlepost2/>}/>
+<Route path='/single_post_3' element={<Singlepost3/>}/>
+<Route path='/카지노사이트제작' element={<Producción/>}/>
       </Routes>
 
 

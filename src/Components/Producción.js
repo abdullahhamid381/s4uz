@@ -1,9 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../Scss/Sgaming9.scss'
 import Footer from './Reuseable/Footer'
 import Navbar from './Reuseable/Navbar'
-import { Link } from 'react-router-dom'
-const Sgaming9 = () => {
+const Producción = () => {
     return (
         <div className='sgaming9-parent'>
 
@@ -19,7 +19,7 @@ const Sgaming9 = () => {
 
             <div className='data-parent'>
                 <div className='ceo'>
-                    <h1>회사소개 회사연혁 <br />  <b style={{ color: 'black', fontWeight: '500' }}>CEO 인사말 연락처</b></h1>
+                    <h1>회사소개 회사연혁 <br /><Link style={{textDecoration:'none'}} to='/카지노사이트제작'> <b style={{ color: 'black', fontWeight: '500' }}>CEO 인사말 연락처</b></Link></h1>
                 </div>
                 <div className='data-para'>
                     <p>설립일 <b style={{ fontWeight: '500' }}>2010년 11월</b></p>
@@ -35,7 +35,7 @@ const Sgaming9 = () => {
             {/* SOLUTION */}
 
             <div className='solution'>
-                <img src={'./images/37.png'} alt="" width={"100%"} />
+               
 
                 {/* DETAIL FIRST */}
                 <div>
@@ -116,4 +116,4 @@ const Sgaming9 = () => {
     )
 }
 
-export default Sgaming9
+export default Producción
