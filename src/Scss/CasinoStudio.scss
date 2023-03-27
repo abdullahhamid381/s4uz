@@ -9,13 +9,14 @@
         }
     }
  .card-parent{
-        display: flex;
-        gap: 80px ;
+        display: grid;
+        grid-template-columns:1fr 1fr ;
+     
         border: 1px solid rgb(50, 50, 50);
         padding: 20px;
         margin: 40px 0;
         @include lg{
-            flex-direction: column;
+            grid-template-columns: 1fr;
             gap: 0;
         }
         h1{
