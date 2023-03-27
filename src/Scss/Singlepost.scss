@@ -1,0 +1,101 @@
+.single-post-parent{
+    width: 80%;
+    padding: 160px 0 100px 0;
+    margin: auto;
+    .text{
+        width: 70%;
+        margin: auto;
+        .purple-text{
+            padding: 80px 0;
+          h1{
+              color: #9A1452;
+            font-size: 23px;
+            font-weight: 700;
+            line-height: normal
+          }
+
+        }
+        .solution-4u{
+            .solution{
+                color: rgb(18, 114, 198);
+                font-size: 30px;
+                font-weight: 700;
+            }
+            span{
+                font-size: 18px;
+                color: rgb(102, 102, 102);
+                font-weight: 700;
+            }
+        }
+        .section-image{
+            div{
+                img{
+                    width: 100%;
+                    margin-top: 20px;
+                }
+                p{
+                    color: rgb(6, 6, 5);
+                    font-size: 14px;
+
+                }
+            }
+        }
+        .korean-points{
+            padding: 40px 0;
+            div{
+                h1{
+                    font-size: 18px;
+                    color:  rgb(102, 102, 102);
+                    font-weight: 700;
+                }
+            }
+            span{
+                color: rgb(102, 102, 102);
+                font-size: 18px;
+                font-weight: 400;
+            }
+        }
+        .td-gaming{
+            span{
+                font-size: 18px;
+                color: rgb(102, 102, 102);
+            }
+            li{
+                font-size: 18px;
+                font-weight: 400;
+                color: rgb(102, 102, 102);
+                line-height: 30px;
+            }
+            p{
+                font-size: 18px;
+                font-weight: 400;
+                color: rgb(102, 102, 102);
+            }
+            h6{
+                font-size: 18px;
+                font-weight: 400;
+                color: rgb(102, 102, 102);
+            }
+        }
+        .sgaming{
+            padding-top: 60px;
+            span{
+                font-size: 18px;
+                font-weight: 400;
+                color: rgb(102, 102, 102);
+            }
+            .order-list{
+                span{
+                    font-size: 18px;
+                    color: rgb(102, 102, 102);
+                    font-weight: 400;
+                }
+                p{
+                    font-size: 18px;
+                    color: rgb(102, 102, 102);
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}

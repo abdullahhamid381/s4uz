@@ -3,11 +3,12 @@ import '../../Scss/Footer.scss'
 import { ImFacebook } from 'react-icons/im'
 import { AiOutlineTwitter } from 'react-icons/ai'
 import { FaLinkedinIn } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 const Footer = () => (
     <Fragment>
       <div className='foter-parent'>
       <div className='footer-img-parent'>
-            <img src={'./images/17.webp'} alt="" />
+            <Link to='/single_post'><img src={'./images/17.webp'} alt="" /></Link>
             <img src={'./images/18.webp'} alt="" />
             <img src={'./images/19.webp'} alt="" />
         </div>

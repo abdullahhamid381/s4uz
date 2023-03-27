@@ -7,6 +7,7 @@ import S4ugaming3 from './Components/S4ugaming3'
 import Sgaming2 from './Components/Sgaming2'
 import Sgaming3 from './Components/Sgaming3'
 import Sgaming9 from './Components/Sgaming9'
+import Singlepost from './Components/Singlepost'
 import './Scss/Home.scss'
 
 const App = () => {
@@ -20,7 +21,7 @@ const App = () => {
         <Route path='/sgaming9' element={<Sgaming9 />} />
         <Route path='/evolution' element={<Evolution />} />
         <Route path='/s4ugaming3' element={<S4ugaming3 />} />
-
+<Route path='/single_post' element={<Singlepost/>}/>
       </Routes>
 
 
