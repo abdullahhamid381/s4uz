@@ -245,18 +245,136 @@ const Singlepost3 = () => (
                     <li>
                         텔레그램 : CASINOPOWER4 로 상담을 주시길 바랍니다.
                     </li>
-<br /><br />
-
-                    <b style={{color:'purple'}}>[ 게임 구매 가격 ]</b>
                     <br /><br />
-                   <a href="https://download-files.wixmp.com/ugd/c9efbf_3149595347bf48a4960fade51a595990.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YXBwOmU2NjYzMGU3MTRmMDQ5MGFhZWExZjE0OWIzYjY5ZTMyIiwic3ViIjoidXJuOmFwcDplNjY2MzBlNzE0ZjA0OTBhYWVhMWYxNDliM2I2OWUzMiIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sImlhdCI6MTY3OTk4Mjk4MSwiZXhwIjoxNjgwMDE4OTkxLCJqdGkiOiJlZDA4MjM4NS1hMzBkLTQ2MmYtOGQ0MC1kODUwYTY1NDc1YWMiLCJvYmoiOltbeyJwYXRoIjoiL3VnZC9jOWVmYmZfMzE0OTU5NTM0N2JmNDhhNDk2MGZhZGU1MWE1OTU5OTAucGRmIn1dXSwiZGlzIjp7ImZpbGVuYW1lIjoiXHVjMmFjXHViODZmXHViNzdjXHVjNzc0XHViZTBjIFx1Y2U3NFx1YzljMFx1YjE3OCBcdWFjMDBcdWFjYTkucGRmIiwidHlwZSI6ImF0dGFjaG1lbnQifX0.G2_kXsgF9PRZAz2dd3ue6P7Q7dmqS8OmXkOAaAPD1yQ" ><img src={'./images/47.png'} alt="" width={'100%'}/></a>
 
-                   <br /><br />
+                    <b style={{ color: 'purple' }}>[ 게임 구매 가격 ]</b>
+                    <br /><br />
+                    <a href="https://download-files.wixmp.com/ugd/c9efbf_3149595347bf48a4960fade51a595990.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YXBwOmU2NjYzMGU3MTRmMDQ5MGFhZWExZjE0OWIzYjY5ZTMyIiwic3ViIjoidXJuOmFwcDplNjY2MzBlNzE0ZjA0OTBhYWVhMWYxNDliM2I2OWUzMiIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sImlhdCI6MTY3OTk4Mjk4MSwiZXhwIjoxNjgwMDE4OTkxLCJqdGkiOiJlZDA4MjM4NS1hMzBkLTQ2MmYtOGQ0MC1kODUwYTY1NDc1YWMiLCJvYmoiOltbeyJwYXRoIjoiL3VnZC9jOWVmYmZfMzE0OTU5NTM0N2JmNDhhNDk2MGZhZGU1MWE1OTU5OTAucGRmIn1dXSwiZGlzIjp7ImZpbGVuYW1lIjoiXHVjMmFjXHViODZmXHViNzdjXHVjNzc0XHViZTBjIFx1Y2U3NFx1YzljMFx1YjE3OCBcdWFjMDBcdWFjYTkucGRmIiwidHlwZSI6ImF0dGFjaG1lbnQifX0.G2_kXsgF9PRZAz2dd3ue6P7Q7dmqS8OmXkOAaAPD1yQ" ><img src={'./images/47.png'} alt="" width={'100%'} /></a>
+
+                    <br /><br />
                     <div>
                         <span style={{ fontSize: '38px', color: 'rgb(102, 102, 102)', fontWeight: '400' }}>--------------------------------</span>
                     </div>
                     <br />
                     <br />
+                    눈에 쉽고 편리안 관리자.
+                    <br />
+                    [ 정산 트리 구조 ]
+                    <br /><br />
+
+
+                    (본사)
+                    <br />
+                    알구매하여 하부(부본사, 총판, 매장) 에 내리거나 회수가능, 하부 매장 회원들의 롤링, 루징정산 가능
+
+                    <br /><br /><br />
+
+                    (부본사)
+                    <br />
+                    상부에서 알구매/ 하부(총판,매장)에 내리거나 회수가능, 하부매장 회원들의 롤링, 루징정산 가능
+                    <br /><br /><br />
+
+
+                    (총판)
+                    <br />
+                    상부에서 알구매하여 하부(매장)에 내리거나 회수가능, 하부매장 회원들의 롤링, 루징정산 가능
+                    <br /><br />
+
+
+                    (매장)
+                    <br />
+                    회원이 직접 붙게 되는 영업하는 위치, 실질적인 현금거래가 생김,
+                    <br />
+                    - 하부매장 회원들의 롤링, 루징정산 가능
+                    <br /><br /><br />
+
+
+                    모든 포지션은 마스터(운영사) 에 알을 충전 또는 환전 할수 있는 기능이 있습니다.
+
+                    <br /><br /><br /><br />
+
+
+
+
+
+                    롤링 게이지 바 적용과, 게임 회사간 머니이동이 자유롭고,
+                    <br />
+                    눈에 쉽고 슬롯 게임 운영만의 특성을 살린 편리한 관리자를 제공 해 드립니다.
+                    <br />
+                    선사해 드립니다.
+                    <br />
+                    <br />
+                    바카라 영상송출 게임의 원활한 API연동과 공급체계 , 알 시스템과 영상임대 시스템을 공급 해 드리며,
+                    <br />
+                    카지노 영상게임에 최적화된 어드민을 제공 해 드립니다.
+                    <br />
+                    더불어, 고객이 원하시는 맞춤형 슬롯제작을 해드리며,
+                    <br />
+                    원하시는 슬롯알공급, 매장충환전 시스템까지 최상의 "슬롯머신솔루션" 을 선사 해 드립니다.
+
+                    <br /><br />
+                    <div>
+                        <span style={{ fontSize: '38px', color: 'rgb(102, 102, 102)', fontWeight: '400' }}>--------------------------------</span>
+                    </div>
+                    <br />
+                    <br />
+                    10년의 회사 연혁을 바탕으로 강력한 카지노 솔루션과 더불어,
+                    <br />
+                    원활한 소통과 고품격 서비스로 개발 지원을 해드리는 SOLUTION 4U 입니다
+                    <br />
+                    SOLUTION 4U는 카지노 게임 프로그램 개발과 게임 공급 및 사이트 제작,
+                    <br />
+                    스튜디오 세팅까지, 전반적인 온/오프라인 카지노 사업에 관련된
+                    <br />
+                    소프트웨어 개발에 집중 투자와 개발을 하고 있습니다.
+                    <br /><br />
+                    <div>
+                        <span style={{ fontSize: '38px', color: 'rgb(102, 102, 102)', fontWeight: '400' }}>--------------------------------</span>
+                    </div>
+                    <br />
+                    <br />
+
+                    끝이 없는 자유도의 즐거움 , 관리자 커스터마이징!
+                    <br /><br />
+                    <b style={{ color: 'rgb(103, 78, 167) !important' }}>
+                        <li style={{ color: 'rgb(103, 78, 167) !important' }}>유년시절 조립식 로봇을 만져보지 않으신 분은 없으실 것입니다. </li>
+                        <br />
+                        <li style={{ color: 'rgb(103, 78, 167) !important' }}>마치 조립식 로봇을 즐겁게 조립하듯, 본사의 관리자에 기능을 탑재하여 보세요.</li>
+                        <br />
+                        <li style={{ color: 'rgb(103, 78, 167) !important' }}>더 나아가, 더욱 강력한 어드민으로 거듭나기 위하여, 귀하께서 원하시는 기능은 최대한 기술을 반영해드립니다.</li>
+                    </b>
+                    <br />
+                    <br />
+                    폭포처럼 시원한 소통 , 개발자와 1:1 원활한 소통 시스템!
+                    <br /><br />
+                    <b style={{ color: 'rgb(103, 78, 167)' }}>
+                        <li> 아직도 개발자와 소통이 이루어지지 않는 솔루션을 사용하고 계신지요..</li>
+                        <br />
+                        <li>디도스 공격및 여러 악재와 제 3자의 접근에 대처할 때에, 누군가를 통하여 개발자에게 상황 전달이 된다면, 이미 해당 솔루션은 방어 능력을 상실한 </li>
+                        <li>상태란것을 귀하께서도 인지 하시고 계실겁니다.</li>
+                        <li>사람이 만든 시스템에는 오류와 버그가 100% 존재 하는 법입니다.</li>
+                        <li>   오류와 버그를 빠르게 인식하고 더 빠르게 대처하는것이 최상의 목표란 것도 이미 인지하고 계실 것입니다.</li>
+                        <li> SOLUTION 4U에서는 지난 2016년부터 개발자와 개발상품 이용 고객간의 1:1 소통의 장을 만들어 더욱 빠른 방어,오류대처 및 개발구현물에 있어 최상의 만족도를 선사 해 드리고 있습니다.</li>
+
+                    </b>
+                    <br />
+                    <br />
+                    합리적인 카지노 솔루션 가격 , 사이트, 유져페이지 디자인이 무료!
+                    <br />
+                    실바람처럼 섬세한 시스템 케어와 끊김없는 24시간 비상 연락 대응반,
+                    <br />
+                    더불어… 강력한 개발 산출력 / 철벽 보안 서버구성
+
+
+
+
+
+
+
+
+
+
+
                 </p>
             </div>
 
