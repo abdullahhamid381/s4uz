@@ -250,6 +250,13 @@ const Singlepost3 = () => (
                     <b style={{color:'purple'}}>[ 게임 구매 가격 ]</b>
                     <br /><br />
                    <a href="https://download-files.wixmp.com/ugd/c9efbf_3149595347bf48a4960fade51a595990.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YXBwOmU2NjYzMGU3MTRmMDQ5MGFhZWExZjE0OWIzYjY5ZTMyIiwic3ViIjoidXJuOmFwcDplNjY2MzBlNzE0ZjA0OTBhYWVhMWYxNDliM2I2OWUzMiIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sImlhdCI6MTY3OTk4Mjk4MSwiZXhwIjoxNjgwMDE4OTkxLCJqdGkiOiJlZDA4MjM4NS1hMzBkLTQ2MmYtOGQ0MC1kODUwYTY1NDc1YWMiLCJvYmoiOltbeyJwYXRoIjoiL3VnZC9jOWVmYmZfMzE0OTU5NTM0N2JmNDhhNDk2MGZhZGU1MWE1OTU5OTAucGRmIn1dXSwiZGlzIjp7ImZpbGVuYW1lIjoiXHVjMmFjXHViODZmXHViNzdjXHVjNzc0XHViZTBjIFx1Y2U3NFx1YzljMFx1YjE3OCBcdWFjMDBcdWFjYTkucGRmIiwidHlwZSI6ImF0dGFjaG1lbnQifX0.G2_kXsgF9PRZAz2dd3ue6P7Q7dmqS8OmXkOAaAPD1yQ" ><img src={'./images/47.png'} alt="" width={'100%'}/></a>
+
+                   <br /><br />
+                    <div>
+                        <span style={{ fontSize: '38px', color: 'rgb(102, 102, 102)', fontWeight: '400' }}>--------------------------------</span>
+                    </div>
+                    <br />
+                    <br />
                 </p>
             </div>
 
